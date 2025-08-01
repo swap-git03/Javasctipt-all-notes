@@ -79,3 +79,64 @@ You can use element.textContent, element.innerHTML, or element.innerText to chan
 [i]innerHTML : Sets or gets the HTML contemt of an element.
 [ii]textContent: Sets or  ggets the textcontent of an element, without html tags
 [iii]innerText: Similar to textContent, but is aware of CSS styling and doesn't return hidden text.
+
+17. How do you check if a string contains a specific substring in JavaScript?
+=>Using includes() method, indexOf(), or regular expressions.
+
+18. What is the difference between slice(), substring(), and substr()?
+[i] slice(): extracts a sectio of string and returns it as a new stfring.
+[ii]substring(): similar to slice(), but with different behaviour for negative indices.
+[iii].substr(): Extracts a section of a string, specified by a starting index and length.
+
+19. How can you reverse a string in JavaScript?
+=> Using split(), reverse(), and join() methods:
+const str = "hello";
+const reversedStr = str.split("").reverse().join("");
+console.log(reversedStr); // "olleh"
+
+20. What is the difference between forEach(), map(), and for loop?
+[i]forEach(): Executes a function for each element in an array , without returning an new qarray;
+[ii]map(): Executes a function for each element in an array and returns a new array with SpeechRecognitionResultList.apply
+[iii]forLoop: a traditional loop that allows more control over the iteration process.
+
+
+21. How do you remove duplicate values from an array in JavaScript?
+You can use the Set object or the filter() method :
+const arr = [1, 2, 2, 3, 4, 4, 5];
+const uniqueArr = [...new Set(arr)];
+console.log(uniqueArr); // [1, 2, 3, 4, 5]
+
+[22]Explain how to sort an array of numbers in ascending and descending order.
+// Assending order
+const arr = [4,8,2,5,] ;
+arr.sort((a, b) => b-a);
+console.log(arr);
+// Descending order
+arr.sort((a, b) => b - a);
+console.log(arr); // [7, 4, 3, 2, 1
+
+[23] Whats the difference between push(), pop(), shift(), and unshift()?
+[i] push(): Adds one or more elements to end of an array.
+[ii] pop(): Removes the last element from an array.
+[iii] shift(): Removes the first element from an array.
+[iv] unshift(): Adds one or more elements to the beginning of an array.
+
+24. How can you merge two objects in JavaScript?
+We can use the Object.assign() method or the spread operator ({...obj1, ...obj2}):
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+const mergedObj = { ...obj1, ...obj2 };
+console.log(mergedObj); // { a: 1, b: 2, c: 3, d: 4 }
+
+25.How do you iterate over the keys and values of an object?
+We can use the Object.keys(),
+Object.values, or Object.entries() methods:
+const obj = {a:1, b:2, c:3};
+// Iterate over keys
+Objext.key(obj).forEach(key => console.log(key));
+// Iterate over values
+Object.values(obj).forEach(value =>
+  console.log(value));
+
+
+

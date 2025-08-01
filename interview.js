@@ -140,3 +140,35 @@ Object.values(obj).forEach(value =>
 
 
 
+
+
+// Programssssssssssssssssssssssssss
+1. Check if a number is prime or not!
+function isPrime(num) {
+  if (nun <=1) return false;
+  for (let i = 2; i * i <= num; i++){
+    if (num % i ===0) return false
+  }
+  return true;
+}
+console.log(isPrime(11)); // true
+console.log(isPrime(15)); // false
+
+ 2. Reverse a string without using built-in reverse methods.
+ function reverseString(str){
+  let reversed = '';
+  for(let i = str.length - 1; i>=0; i--){
+    reversed +=str[i];
+  }
+  return reversed;
+ }
+ console.log(reverseString("hello")); 
+
+ 3. Find the factorial of a number using recursion
+  fuction factorial(n) {
+  if (n===0) return 1;
+  return n* factorial(n-1);
+}
+
+
+ 4. Check if a string is a palindrome

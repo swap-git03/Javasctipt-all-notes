@@ -15,7 +15,7 @@
 variable should be defined before using.
 
 
-4. Whats differ between == and === ?
+4. Whats differ between == and === ?.
 [i] == only compares value. 
 [ii] === compares value + datatypes.
 

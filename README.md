@@ -1,1 +1,2 @@
-# Javasctipt-all-notes
+# Javasctipt-all-notes-for-interviews
+# anyone can refer

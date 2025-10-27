@@ -76,15 +76,15 @@
 // You can use element.textContent, element.innerHTML, or element.innerText to change the content of an HTML element.
 
 // 16. What is the difference between innerHTML, textContent, and innerText?
-// [i]innerHTML : Sets or gets the HTML contemt of an element.
-// [ii]textContent: Sets or  ggets the textcontent of an element, without html tags
+// [i]innerHTML : Sets or gets the HTML content of an element.
+// [ii]textContent: Sets or gets the textcontent of an element, without html tags
 // [iii]innerText: Similar to textContent, but is aware of CSS styling and doesn't return hidden text.
 
 // 17. How do you check if a string contains a specific substring in JavaScript?
 // =>Using includes() method, indexOf(), or regular expressions.
 
 // 18. What is the difference between slice(), substring(), and substr()?
-// [i] slice(): extracts a sectio of string and returns it as a new stfring.
+// [i] slice(): extracts a section of string and returns it as a new stfring.
 // [ii]substring(): similar to slice(), but with different behaviour for negative indices.
 // [iii].substr(): Extracts a section of a string, specified by a starting index and length.
 
@@ -95,7 +95,7 @@
 // console.log(reversedStr); // "olleh"
 
 // 20. What is the difference between forEach(), map(), and for loop?
-// [i]forEach(): Executes a function for each element in an array , without returning an new qarray;
+// [i]forEach(): Executes a function for each element in an array , without returning an new array;
 // [ii]map(): Executes a function for each element in an array and returns a new array with SpeechRecognitionResultList.apply
 // [iii]forLoop: a traditional loop that allows more control over the iteration process.
 

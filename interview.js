@@ -96,7 +96,7 @@
 
 // 20. What is the difference between forEach(), map(), and for loop?
 // [i]forEach(): Executes a function for each element in an array , without returning an new array;
-// [ii]map(): Executes a function for each element in an array and returns a new array with SpeechRecognitionResultList.apply
+// [ii]map(): Executes a function for each element in an array and returns a new array.
 // [iii]forLoop: a traditional loop that allows more control over the iteration process.
 
 
@@ -171,7 +171,6 @@
 // }
 
 
-
 //  ## 4. Check if a string is a palindrome
 // function isPalindrome(str) {
 //   let reversed = str.split('').reverse().join('');
@@ -180,6 +179,8 @@
 
 // console.log(isPalindrome("madam")); // true
 // console.log(isPalindrome("hello")); // false
+
+
 // ## 5. Generate the Fibonacci sequence up to n terms
 // function fibonacci(n) {
 //   let sequence = [0, 1];
@@ -188,8 +189,9 @@
 //   }
 //   return sequence;
 // }
-
 // console.log(fibonacci(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+
 // ## 6. Find the second largest number in an array
 // function secondLargest(arr) {
 //   let max = Math.max(...arr);
@@ -479,7 +481,9 @@
 // }
 
 // console.log(shuffleArray([1, 2, 3, 4, 5]));
-// ## 20. Remove all falsy values from an array
+
+
+// ## 20. Remove all false values from an array
 // function removeFalsyValues(arr) {
 //   return arr.filter(Boolean);
 // }

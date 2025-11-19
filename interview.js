@@ -7,8 +7,8 @@
 
 // 2. What is the difference betweeen let, var and const??
 // [i] Var : Function Scoped, can be redeclared and reused.
+// // [ii] Let : Block Scoped, can be updated but can not be redeclared.Block
 // [iii] Const : Block Scoped, cant be updated nor declared.
-// [ii] Let : Block Scoped, can be updated but can not be redeclared.Block
 
 
 // 3. What is hoisting in javascript.
@@ -22,13 +22,13 @@
 
 // 5. What is the difference between null and undefined?
 // Null : represnts absence of any object value.
-// Undefined : represnts an uninitialized or non-existent variable.
+// Undefined : represents an uninitialized or non-existent variable.
 
 // 6. How does JavaScript handle asynchronous code?
 // javascript uses useCallback, promises, async-await. these allow the code to execute without blocking the main thread.
 
 // 7. What are arrow functions and how do they differ from regular functions?
-// Arrow functions are concise functions that dont have their own this useContext. They inherit the this context from the parent scope, unlike regular scope.
+// Arrow functions are short functions in JS, defined with =>. They borrow this from the surrounding scope, unlike regular functions.
 
 // 8. What is a closure in JavaScript? Give an example
 // A closure is a function that has access to its outer function has returned. example
@@ -63,7 +63,7 @@
 // 13. What is the difference between map(), filter(), and reduce()?
 // [i] map(): Transforms each element of an array and returns a new array.
 // [ii] filter(): Returns a new array with elements that pass a test.
-// [iii] reduce(): Accumulates values in an array to a single value.A
+// [iii] reduce(): Accumulates values in an array to a single value.
 
 
 // 14. How do you select elements in the DOM using JavaScript?

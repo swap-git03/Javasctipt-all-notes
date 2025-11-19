@@ -1,7 +1,7 @@
 // // Basic javascript
 
 // 1. What are the different datatypes of javascript ??.
-// [i]Number [ii]String [iii]Boolean [iv]Undefined [v]Null [vi]
+// [i]Number [ii]String [iii]Boolean [iv]Undefined [v]Null
 
 
 

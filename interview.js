@@ -6,7 +6,7 @@
 
 
 // 2. What is the difference betweeen let, var and const??
-// [i] Var : Function Scoped, can bbe redeclared and reused.
+// [i] Var : Function Scoped, can be redeclared and reused.
 // [iii] Const : Block Scoped, cant be updated nor declared.
 // [ii] Let : Block Scoped, can be updated but can not be redeclared.Block
 

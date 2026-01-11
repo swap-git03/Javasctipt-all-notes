@@ -453,8 +453,9 @@
 // function capitalizeFirstLetter(str) {
 //   return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 // }
-
 // console.log(capitalizeFirstLetter("hello world")); // Hello World
+
+
 // ## 16. Flatten a nested array
 // function flattenArray(arr) {
 //   return arr.flat(Infinity);

@@ -447,8 +447,9 @@
 //   }
 //   return longest;
 // }
-
 // console.log(longestWord("I love programming")); // programming
+
+
 // ## 15. Convert the first letter of each word in a sentence to uppercase
 // function capitalizeFirstLetter(str) {
 //   return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');

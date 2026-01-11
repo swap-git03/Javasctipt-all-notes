@@ -467,6 +467,7 @@
 // }
 // console.log(areAnagrams("listen", "silent")); // true
 // console.log(areAnagrams("hello", "world")); // false
+
 // ## 18. Find the number of occurrences of a specific element in an array
 // function countOccurrences(arr, element) {
 //   return arr.filter(item => item === element).length;

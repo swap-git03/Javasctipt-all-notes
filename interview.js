@@ -436,7 +436,6 @@
 //   if (b === 0) return a;
 //   return gcd(b, a % b);
 // }
-
 // console.log(gcd(48, 18)); // 6
 // ## 14. Find the longest word in a given string
 // function longestWord(str) {

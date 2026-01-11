@@ -7,7 +7,7 @@
 
 // 2. What is the difference betweeen let, var and const??
 // [i] Var : Function Scoped, can be redeclared and reused.
-// // [ii] Let : Block Scoped, can be updated but can not be redeclared.Block
+// [ii] Let : Block Scoped, can be updated but can not be redeclared.Block
 // [iii] Const : Block Scoped, cant be updated nor declared.
 
 
@@ -46,9 +46,9 @@
 
 // 9. What is the difference between synchronous and asynchronous JavaScript?
 // Synchronous: codde executtes sequentially blocking the main thread.
-// asynchronous: Code executes without blokcing the main thread.using callbacks, promises or async await.
+// asynchronous: Code executes without blokcing the main thread using callbacks, promises or async await.
 
-// 10. WHats the  purpose of this keyword in javascript.
+// 10. Whats the  purpose of this keyword in javascript.
 // This keyword refers to the current execution context of a function. In a method, it refers to the object the method is called on.
 
 // 11.Explain the concept of scope in JavaScript.
@@ -165,7 +165,7 @@
 //  console.log(reverseString("hello"));
 
 //  3. Find the factorial of a number using recursion
-//   fuction factorial(n) {
+//   function factorial(n) {
 //   if (n===0) return 1;
 //   return n* factorial(n-1);
 // }
@@ -176,7 +176,6 @@
 //   let reversed = str.split('').reverse().join('');
 //   return str === reversed;
 // }
-
 // console.log(isPalindrome("madam")); // true
 // console.log(isPalindrome("hello")); // false
 
@@ -198,8 +197,9 @@
 //   arr = arr.filter(num => num !== max);
 //   return Math.max(...arr);
 // }
-
 // console.log(secondLargest([1, 2, 3, 4, 5])); // 4
+
+
 // ## 7. Count the number of vowels in a string
 // function countVowels(str) {
 //   let vowels = 'aeiou';
@@ -228,26 +228,29 @@
 //   }
 //   return arr;
 // }
-
 // console.log(sortArray([5, 2, 8, 1, 9])); // [1, 2, 5, 8, 9]
+
+
 // ## 10. Find the sum of all numbers in an array that are divisible by 3 or 5
 // function sumDivisibleBy3Or5(arr) {
 //   return arr.reduce((sum, num) => num % 3 === 0 || num % 5 === 0 ? sum + num : sum, 0);
 // }
 
 // console.log(sumDivisibleBy3Or5([1, 2, 3, 4, 5, 6])); // 3 + 5 + 6 = 14
+
+
 // ## 11. Check whether a given year is a leap year or not
 // function isLeapYear(year) {
 //   return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
 // }
-
 // console.log(isLeapYear(2020)); // true
 // console.log(isLeapYear(2021)); // false
+
+
 // ## 12. Count the number of words in a sentence
 // function countWords(sentence) {
 //   return sentence.trim().split(/\s+/).length;
 // }
-
 // console.log(countWords("hello world")); // 2
 
 
@@ -487,5 +490,4 @@
 // function removeFalsyValues(arr) {
 //   return arr.filter(Boolean);
 // }
-
 // console.log(removeFalsyValues([0, null, undefined, '', 'hello', true])); // ['hello', true]
